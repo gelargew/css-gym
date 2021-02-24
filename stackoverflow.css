@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+}
+
+.line-top {
+    z-index: 5;
+    height: 3px;
+    width: 100vw;
+    background: orange;
+    margin: 0;
+    position: fixed;
+    top: 0;
+}
+
+header {
+    z-index: 4;
+    background: rgb(231, 231, 231);
+    height: 3rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 7fr 3fr;
+    grid-gap: 20px;
+    padding: 0 3rem;
+    box-shadow: 0 2px rgba(156, 156, 156, 0.5)
+}
+
+.btn-icons {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+.header-search {
+    height: 50%;
+    width: 100%;
+    margin: 8px 0;
+    border: none;
+}
