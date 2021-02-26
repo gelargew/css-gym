@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #2c2f33;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 13fr;
+    height: 100vh;
+}
+
+.icons {
+    background: #222;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.icons i {
+    background: #2c2f33;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.icons i:hover {
+    background: #575d64;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icons i:active {
+    transform: translateY(6px)
+}
+
+.sidebar {
+    background: #26292c;
+    height: 100%;
+}
